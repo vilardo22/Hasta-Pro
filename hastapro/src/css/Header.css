@@ -1,0 +1,11 @@
+nav {
+    text-align: center;
+    
+    width: 100%;
+  }
+  
+  .logo {
+    width: 20%; /* Ajuste conforme necessário */
+    height: 100%; /* Para manter a proporção da imagem */
+    
+  }
