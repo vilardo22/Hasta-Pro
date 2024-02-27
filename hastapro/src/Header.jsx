@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <nav>
       <img src={Logo} alt="logo header" className='logo' />
+     
       </nav>
   );
 }
