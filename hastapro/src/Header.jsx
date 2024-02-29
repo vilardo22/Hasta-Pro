@@ -4,10 +4,11 @@ import Logo from "./assets/logo_login.png";
 
 const Header = () => {
   return (
-    <nav>
-      <img src={Logo} alt="logo header" className='logo' />
-     
-      </nav>
+    <header>
+      <div className="logo">  
+          <img src={Logo} alt="logo header"/>
+      </div>
+    </header>  
   );
 }
 

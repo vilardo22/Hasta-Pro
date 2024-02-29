@@ -1,22 +1,17 @@
 .container{
-    display:flex;
-    flex-flow:  row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #24394F;
+    display: flex;
+    padding: 1rem;
     width: 100%;
-    height: 15em;
-    color: rgb(255, 0, 0);
-    gap: 1.5em;
+    height: 18rem;
+    justify-content: space-between;
 }
 
-.foto{
-    background-color: beige;
-    width: 15em;
-    height: 10em;
-    margin-right: 20px;
 
-}
-.texto-lateral{
-   font-size: 10px;
-}
+
+.banner1 img {
+    max-width: 100%; /* Faz com que a imagem não ultrapasse a largura da div */
+    max-height: 100%; 
+    border-radius: 5px;
+  }
+
+  
