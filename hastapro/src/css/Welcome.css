@@ -1,17 +1,34 @@
-.container{
-    display: flex;
-    padding: 1rem;
+.container-1{
     width: 100%;
-    height: 18rem;
-    justify-content: space-between;
+    height: 10.8rem;
+    background-image: linear-gradient(#24394F,#EEF7F4 );
 }
 
+.container-banner{
+    padding: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     gap: 1rem;
 
+           
+
+           
+}
 
 .container-banner img {
-    max-width: 100%; 
+    
+    max-width: 15rem; 
     max-height: 100%; 
     border-radius: 5px;
   }
 
-  
+
+  .texto{
+    color: white;
+   p{
+    font-size: 0.8rem;
+   }
+  }
+
+
