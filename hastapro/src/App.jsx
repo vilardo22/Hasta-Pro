@@ -3,6 +3,11 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Header'
 import Welcome from './Welcome'
+import NavMenu from './NavMenu'
+import Banner from './Banner'
+import QuemSomos from './QuemSomos'
+import Sistema from './Sistema'
+import Resultados from './Resultados'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +16,11 @@ function App() {
     <>
    <Header/>
    <Welcome/>
+   <NavMenu/>
+   <Banner/>
+   <QuemSomos/>
+   <Sistema/>
+   <Resultados/>
     </>
   )
 }
