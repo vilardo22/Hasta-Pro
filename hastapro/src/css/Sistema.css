@@ -35,10 +35,17 @@
 .lista{
     margin: 0 0 2.1875rem 0;
     color: #24394F;
-    padding-left: 1rem;
     line-height: 1.5;
-    font-size: 110%;
+    font-size: 100%;
     flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+   
+}
+
+.lista li::marker{
+    color: #509B7E;
+    
 }
 /* .container-cards3{
     font-size: 65%;
