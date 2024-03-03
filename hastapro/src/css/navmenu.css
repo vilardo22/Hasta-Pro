@@ -15,23 +15,26 @@
 
 
 
-.container-3-navegacao ul{
+.container-3-navegacao ul {
     display: flex;
     gap: 1rem;
     list-style-type: none;
     width: 100%;
     padding: 1rem;
-    a {
-        font-size: 80%;
-        padding: 0.5rem  1.9rem;
-        color: #59AC8C;
-        text-decoration: none;
-        border: 0.1rem solid #59AC8C ;
-        border-radius: 0.4rem;
-    }
 }
-.container-3-navegacao ul a:hover{
-    background-color: #59AC8C;
-    color: #EEF7F4;
-    border: 0.1rem solid #59AC8C ;
+
+.container-3-navegacao ul a {
+    font-size: 80%;
+    padding: 0.5rem 1.9rem;
+    color: #59AC8C; /* Cor padrão do texto */
+    text-decoration: none;
+    border: 0.1rem solid #59AC8C;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s, color 0.3s; /* Adicionado para suavizar a transição */
+}
+
+.container-3-navegacao ul a:hover {
+    background-color: #59AC8C !important; /* Cor de fundo ao passar o mouse */
+    color: #EEF7F4 !important; /* Cor do texto ao passar o mouse */
+    border-color: #59AC8C !important;
 }

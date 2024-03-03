@@ -1,12 +1,13 @@
 import React from 'react'
 import marreta from "./assets/marreta.png"
+import "./css/Sistema.css"
 const Resultados = () => {
   return (
-    <div className="container-4">
-        <div className="title">
+    <div className="container-8">
+        <div className="titles">
             <h1>Resultados</h1>
         </div>
-        <div className="container-cards">
+        <div className="container-cards2">
             <div className="card1">
                 <img src={marreta} alt="icone" />
                 <h3>1000</h3>
