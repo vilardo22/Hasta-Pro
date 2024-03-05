@@ -1,30 +1,44 @@
 import React from 'react'
 import marreta from "./assets/marreta.png"
-import "./css/Sistema.css"
+import "./css/Resultados.css"
 const Resultados = () => {
   return (
-    <div className="container-8">
-        <div className="titles">
-            <h1>Resultados</h1>
-        </div>
+    <>
+
+      <div className="container-8">
+        <h1 className='titles2'>Resultados</h1>
         <div className="container-cards2">
-            <div className="card1">
+          <div className="card1">
+            <ul className='lista1'>
+              <li>
+                <img src={marreta} alt="icone" />
+                <h3>1000</h3>
+                <p>Receita Movimentada</p>
+              </li>
+            </ul>
+          </div>
+          <div className="card1">
+            <ul className='lista1'>
+              <li>
                 <img src={marreta} alt="icone" />
                 <h3>1000</h3>
                 <p>Lorem Ipsum</p>
-             </div>
-            <div className="card1">
+              </li>
+            </ul>
+
+          </div>
+          <div className="card1">
+            <ul className='lista1'>
+              <li>
                 <img src={marreta} alt="icone" />
-                <h3>2000</h3>
+                <h3>1000</h3>
                 <p>Lorem Ipsum</p>
-             </div>
-            <div className="card1">
-                <img src={marreta} alt="icone" />
-                <h3>3000</h3>
-                <p>Lorem Ipsum</p>
-             </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
+    </>
   )
 }
 

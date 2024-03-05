@@ -1,6 +1,6 @@
 import React from 'react'
 import logoBc from "./assets/logobc.png"
-
+import "./css/Sistema.css";
 
 const Sistema = () => {
     return (

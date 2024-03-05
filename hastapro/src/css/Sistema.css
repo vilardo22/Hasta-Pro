@@ -28,7 +28,6 @@
 .title{
     padding: 0.9rem;
     text-align: center;
-    font-size: 110%;
     color: aliceblue;
 }
 
@@ -40,7 +39,9 @@
     flex-grow: 1;
     text-align: center;
     list-style-type: none;
-   
+
+
+    
 }
 
 .lista li::marker{
