@@ -8,6 +8,7 @@ import Banner from './Banner'
 import QuemSomos from './QuemSomos'
 import Sistema from './Sistema'
 import Resultados from './Resultados'
+import Carrossel from './Carrossel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +22,7 @@ function App() {
    <QuemSomos/>
    <Sistema/>
    <Resultados/>
-   
+   <Carrossel/>
     </>
   )
 }

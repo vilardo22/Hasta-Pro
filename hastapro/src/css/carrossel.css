@@ -1,0 +1,36 @@
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-900%);
+    }
+}
+
+
+.logos{
+    overflow: hidden;
+    padding: 2.75rem 0 ;
+    background-color: #ffffff;
+}
+
+
+.logos-slide img{
+    height: 4.925rem;
+    margin: 0 2.5rem;
+}
+
+.logos-slide{
+   white-space:nowrap;
+    animation: 18s slide infinite linear;
+}
+
+
+.titles3{
+    padding: 2.9rem;
+    text-align: center;
+    color: #478A70;
+    background-color: #ffffff;
+}

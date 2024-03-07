@@ -1,6 +1,6 @@
 .container-8{
     width: 100%;
-    height: auto; /* Ajustado para auto para acomodar conteúdo variável */
+    
 }
 
 .container-cards2{
@@ -22,10 +22,12 @@
 }
 
 .lista1 img {
-    width: 80%; /* Ajuste conforme necessário */
-    height: auto;
+    width: 100%; /* Ajuste conforme necessário */
+    max-height: 3em;
     display: block;
+    object-fit: contain;
     margin: 0 auto; /* Centraliza a imagem */
+   
 }
 
 .lista1 h3 {

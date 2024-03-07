@@ -18,7 +18,7 @@
 }
 
 .slide {
-    width: 33.3333rem; /* Mantendo a largura de cada slide em rem */
+    width: 100%; /* Mantendo a largura de cada slide em rem */
     transition: transform 0.5s ease-in-out; /* Adicionando suavização na transição */
 }
 
