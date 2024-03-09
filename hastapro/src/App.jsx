@@ -10,6 +10,7 @@ import Sistema from './Sistema'
 import Resultados from './Resultados'
 import Carrossel from './Carrossel'
 import Faleconosco from './Faleconosco'
+import Form from './Form'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
    <Resultados/>
    <Carrossel/>
    <Faleconosco/>
+   <Form/>
     </>
   )
 }
