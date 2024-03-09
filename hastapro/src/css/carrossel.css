@@ -5,15 +5,18 @@
     }
 
     to {
-        transform: translateX(-900%);
+        transform: translateX(-80%);
     }
 }
 
 
 .logos{
     overflow: hidden;
-    padding: 2.75rem 0 ;
+    padding: 1.0rem 0 ;
     background-color: #ffffff;
+    white-space:nowrap;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -22,9 +25,21 @@
     margin: 0 2.5rem;
 }
 
+
+.logos::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15.625rem;
+    height: 100%;
+}
+
+
+
 .logos-slide{
-   white-space:nowrap;
-    animation: 18s slide infinite linear;
+    display: inline-block;
+   
+    animation: 50s slide infinite linear;
 }
 
 

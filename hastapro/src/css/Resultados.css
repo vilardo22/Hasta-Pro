@@ -21,6 +21,8 @@
     box-shadow: 0 0.375rem 0.75rem #000000;
 }
 
+
+
 .lista1 img {
     width: 100%; /* Ajuste conforme necessário */
     max-height: 3em;
@@ -38,6 +40,10 @@
 .lista1 p {
     font-size: 90%; /* Ajustado para ser menor */
     color: #ffffff;
+}
+
+.lista1{
+    list-style-type: none;
 }
 .titles2{
     margin-top: 1rem;

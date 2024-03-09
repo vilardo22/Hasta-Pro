@@ -45,6 +45,19 @@ const Carrossel = () => {
             <img src={logo11} alt="ms" />
             <img src={logo12} alt="opportunity" />
             <img src={logo13} alt="rpn" />
+            <img src={logo1} alt="67 leiloes" />
+            <img src={logo2} alt="confiboi" />
+            <img src={logo3} alt="connect" />
+            <img src={logo4} alt="gonçalo" />
+            <img src={logo5} alt="go" />
+            <img src={logo6} alt="lf" />
+            <img src={logo7} alt="leilopora" />
+            <img src={logo8} alt="mba" />
+            <img src={logo9} alt="mg" />
+            <img src={logo10} alt="minas" />
+            <img src={logo11} alt="ms" />
+            <img src={logo12} alt="opportunity" />
+            <img src={logo13} alt="rpn" />
         </ul>
     </div>
     </>
