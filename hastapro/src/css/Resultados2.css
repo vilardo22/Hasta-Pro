@@ -1,0 +1,54 @@
+@media screen and (min-width: 50em) {
+
+.pricing2 {
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.pricing-plan2 {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #509B7E;
+    padding: 1.875rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.3125rem 0.9375rem -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-plan__title2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-bottom: 0.625rem;
+    letter-spacing: 0.125;
+    color: #E6F3EE;
+}
+
+.pricing-plan2 p {
+    margin-top: 0;
+}
+
+.pricing-plan__price2 {
+    font-size: 2.125rem;
+}
+
+
+
+.pricing-plan__features2 li::marker {
+    color: #ffffff;
+}
+
+
+
+
+.main-title2 {
+    font-size: 3.875rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2.875rem 0;
+    color: #E6F3EE;
+}
+}

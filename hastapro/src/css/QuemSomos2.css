@@ -1,0 +1,56 @@
+@media screen and (min-width: 50em){
+
+.container-4{
+    width: 100%;
+    min-height: 60vh;
+    padding: 0.5rem;
+    background-color: #E6F3EE;
+  
+}
+
+
+
+.container-conteudo1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+
+.texto{
+    color: #24394F;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: -1rem;
+    margin-left: 12rem;
+    h1{
+        font-size: 250%;
+    }
+    p{
+        font-size: 150%;
+    }
+   
+}
+.logo1 {
+    padding-top: 2rem;
+    margin-right: 18rem; /* Empurra a imagem para a esquerda */
+    width: auto; /* Ou um valor específico se você quiser controlar o tamanho da div que contém a imagem */
+}
+.logo1 img {
+    width: 190%; /* Aumenta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.main-title1 {
+    font-size: 3.875rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2.875rem 0;
+    color: #E6F3EE;
+}
+}

@@ -3,6 +3,7 @@ import banner1 from './assets/banner1.jpg';
 import banner2 from './assets/banner2.png'; // Substitua pelo caminho correto da sua imagem
 import banner3 from './assets/banner2.png'; // Substitua pelo caminho correto da sua imagem
 import './css/Banner.css';
+import './css/Banner2.css';
 
 const Banner = () => {
     const [count, setCount] = useState(1);

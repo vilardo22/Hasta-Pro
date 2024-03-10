@@ -1,0 +1,26 @@
+@media screen and (min-width: 50em){
+    
+    .wrapperContainer-hero {
+        background-image: linear-gradient(#24394F,#c6ccca );
+    }
+    
+    .heroBanner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+        
+    }
+    
+    .hero_title {
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+        color: #EEF7F4;
+        margin-left: 1.8rem;
+        margin-top: 1.8rem;
+    }
+    .verde{
+        color: #43daa0;
+        text-shadow: #00000070 1px 0 10px;
+    }
+}

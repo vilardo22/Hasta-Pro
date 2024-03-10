@@ -1,5 +1,7 @@
 import React from 'react'
 import './css/navmenu.css'
+import './css/navmenu2.css'
+
 
 const NavMenu = () => {
   return (

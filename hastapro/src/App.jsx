@@ -24,9 +24,9 @@ function App() {
    <QuemSomos/>
    <Sistema/>
    <Resultados/>
-   <Carrossel/>
-   <Faleconosco/>
-   <Form/>
+   {/* <Carrossel/> */}
+   {/* <Faleconosco/> */}
+   {/* <Form/> */}
     </>
   )
 }

@@ -1,0 +1,57 @@
+@media screen and (min-width: 50em){
+    .slider {
+        margin: 0 auto;
+        width: 100%;
+        height: 30rem; /* Mantendo a altura em rem */
+        overflow: hidden;
+        position: relative; /* Adicionando position:relative para permitir position:absolute nos elementos filhos */
+    }
+    
+    .slides {
+        width: 300%; /* Mantendo a largura em rem para 3 slides */
+        height: 100%;
+        display: flex;
+        transition: margin-left 0.5s ease-in-out; /* Adicionando suavização na transição */
+    }
+    
+    .slides input {
+        display: none;
+    }
+    
+    .slide {
+        width: 100%; /* Mantendo a largura de cada slide em rem */
+        transition: transform 0.5s ease-in-out; /* Adicionando suavização na transição */
+    }
+    
+    .slide img {
+        width: 100%;
+        height: 30rem; /* Mantendo a altura da imagem em rem */
+        object-fit: cover; /* Garantindo que a imagem cubra o espaço disponível */
+    }
+    
+    .navigation-auto, .manual-navigation {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        bottom: 1.25rem; /* Mantendo a distância inferior em rem */
+    }
+    
+    .navigation-auto div, .manual-btn {
+        border: 0.125rem solid #fff; /* Mantendo a largura da borda em rem */
+        padding: 0.3125rem; /* Mantendo o preenchimento em rem */
+        border-radius: 2rem; /* Mantendo o raio da borda em rem */
+        margin: 0 0.3125rem; /* Mantendo a margem em rem */
+        cursor: pointer;
+    }
+    
+    .navigation-auto .active, .manual-btn:hover, .manual-btn:focus, .manual-btn:active {
+        background-color: #fff;
+    }
+    
+    /* Ajustes para mostrar ou esconder slides baseado na classe "active" */
+    .slide:not(.active) {
+        display: none;
+    }
+    
+}

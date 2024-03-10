@@ -1,44 +1,43 @@
 import React from 'react'
 import marreta from "./assets/marreta.png"
 import "./css/Resultados.css"
+import "./css/Resultados2.css"
 const Resultados = () => {
   return (
+
+
     <>
 
-      <div className="container-8">
-        <h1 className='titles2'>Resultados</h1>
-        <div className="container-cards2">
-          <div className="card1">
-            <ul className='lista1'>
-              <li>
-                <img src={marreta} alt="icone" />
-                <h3>1000</h3>
-                <p>Receita Movimentada</p>
-              </li>
-            </ul>
-          </div>
-          <div className="card1">
-            <ul className='lista1'>
-              <li>
-                <img src={marreta} alt="icone" />
-                <h3>1000</h3>
-                <p>Lorem Ipsum</p>
-              </li>
-            </ul>
+      <h1 class="main-title2">Resultados</h1>
 
-          </div>
-          <div className="card1">
-            <ul className='lista1'>
-              <li>
-                <img src={marreta} alt="icone" />
-                <h3>1000</h3>
-                <p>Lorem Ipsum</p>
-              </li>
-            </ul>
-          </div>
+      <section class="pricing2">
+        <div class="pricing-plan2">
+          <h2 class="class-plan__title2">Banco de Dados</h2>
+          <div class="pricing-plan__features2">
+          {/* <img src={marreta} alt="marreta" /> */}
+            </div>
+            
+
         </div>
-      </div>
+
+        <div class="pricing-plan2">
+          <h2 class="class-plan__title2">Premium</h2>
+          <div class="pricing-plan__features2">
+            {/* <img src={marreta} alt="marreta" /> */}
+            </div>
+
+        </div>
+
+        <div class="pricing-plan2">
+          <h2 class="class-plan__title2">Deluxe</h2>
+          <div class="pricing-plan__features2">
+          {/* <img src={marreta} alt="marreta" /> */}
+            </div>
+
+        </div>
+      </section>
     </>
+
   )
 }
 
