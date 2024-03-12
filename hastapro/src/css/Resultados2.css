@@ -3,28 +3,43 @@
 .pricing2 {
     padding: 3rem;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .pricing-plan2 {
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #509B7E;
-    padding: 1.875rem;
+    background-color: #f3fffb;
+    padding: 1.475rem;
     border-radius: 0.375rem;
     box-shadow: 0 0.3125rem 0.9375rem -6px black;
     display: flex;
     flex-direction: column;
+    gap: 0.8rem;
 }
 
 .class-plan__title2 {
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 0;
     padding-bottom: 0.625rem;
     letter-spacing: 0.125;
-    color: #E6F3EE;
+    color: #509B7E;
+            span{
+                font-size: 3.5rem;
+            }
+
+}
+
+.class-plan__title3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-bottom: 0.725rem;
+    letter-spacing: 0.125;
+    color: #509B7E;
+    font-size: 3rem
 }
 
 .pricing-plan2 p {

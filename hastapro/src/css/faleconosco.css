@@ -6,9 +6,9 @@
     height: 8rem;
     display: flex;
     flex-direction: column;
-    background-image: url('../assets/ovelha.png');
+    /* background-image: url('../assets/ovelha.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
@@ -17,7 +17,7 @@
     height: 2rem;
     border-radius: 0.4rem;
     font-size: 80%;
-    padding: 0.5rem 1.9rem;
+    padding: .5rem 1.9rem;
     color: #ffffff; /* Cor padrão do texto */
     text-decoration: none;
     border: 0.1rem solid #59AC8C;

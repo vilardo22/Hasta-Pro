@@ -2,10 +2,10 @@
 
 .container-4{
     width: 100%;
-    min-height: 60vh;
+    height: auto;
     padding: 0.5rem;
     background-color: #E6F3EE;
-  
+    padding-top: 6.5rem;
 }
 
 
@@ -24,9 +24,10 @@
     color: #24394F;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-top: -1rem;
-    margin-left: 12rem;
+    width: 60%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
     h1{
         font-size: 250%;
     }
@@ -36,13 +37,16 @@
    
 }
 .logo1 {
-    padding-top: 2rem;
-    margin-right: 18rem; /* Empurra a imagem para a esquerda */
-    width: auto; /* Ou um valor específico se você quiser controlar o tamanho da div que contém a imagem */
+    margin-top: -15rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem; /* Empurra a imagem para a esquerda */
+    min-width: auto; /* Ou um valor específico se você quiser controlar o tamanho da div que contém a imagem */
+    height: 10rem;
 }
 .logo1 img {
-    width: 190%; /* Aumenta o tamanho da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    width: auto; /* Aumenta o tamanho da imagem */
+    height: 25rem; /* Mantém a proporção da imagem */
 }
 
 
@@ -52,5 +56,6 @@
     text-align: center;
     margin: 2.875rem 0;
     color: #E6F3EE;
+   
 }
 }

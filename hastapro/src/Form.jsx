@@ -1,5 +1,7 @@
 import React from 'react'
 import "./css/form.css"
+import "./css/form2.css"
+
 const Form = () => {
   return (
     <div className="container10">
@@ -15,7 +17,7 @@ const Form = () => {
                 <label>Telefone</label>
                 <input type="text" name="phone" placeholder='Digite seu Telefone'/>
                 <button type='submit'>Enviar</button>
-                    <input type="hidden" name="accessKey" value="2da9703c-1dab-4c0e-a918-c52f12f54c78"></input>
+                    <input type="hidden" name="accessKey" value="27cd514d-d266-4107-ba31-02d0e815bdca"></input>
                     <input type="hidden" name="redirectTo" value="http://localhost:5173/"></input>
             </form>
     <div className="forms"></div>            

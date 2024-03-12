@@ -39,6 +39,7 @@
         padding-left: 1rem;
         line-height: 1.8;
         flex: 1;
+        font-weight: bold;
     }
     
     .pricing-plan__features li::marker {

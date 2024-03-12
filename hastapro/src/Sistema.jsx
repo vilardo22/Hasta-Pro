@@ -7,38 +7,42 @@ const Sistema = () => {
     return (
         <>
 
-            <h1 class="main-title">Nosso Sistema</h1>
+            <h1 class="main-title" id='Sistema'>Nosso Sistema</h1>
 
             <section class="pricing">
                 <div class="pricing-plan">
-                    <h2 class="class-plan__title">Banco de Dados</h2>
+                    <h2 class="class-plan__title">Integração e Funcionalidades do Sistema</h2>
                     <ul class="pricing-plan__features">
-                        <li>1 Website</li>
-                        <li>1GB de Armazenamento</li>
-                        <li>10GB de transferência</li>
+                        <li>Acesso ao banco de dados em nuvem</li>
+                        <li>Integração com contratos digitais e WhatsApp, tudo dentro do sistema</li>
+                        <li>Funcionalidades disponíveis para bovinos, equinos, caprinos e outros produtos agrícolas.</li>
+                        <li>Relatórios configuráveis para atender às necessidades específicas.</li>
+                        <li>Fechamento dos leilões simplificado e facilitado</li>
                     </ul>
                     
                 </div>
 
                 <div class="pricing-plan">
-                    <h2 class="class-plan__title">Premium</h2>
+                    <h2 class="class-plan__title">Gerenciamento de Vendas e Transações</h2>
                     <ul class="pricing-plan__features">
-                        <li>5 Website</li>
-                        <li>3GB de Armazenamento</li>
-                        <li>Transferência ilimitada</li>
-                        <li>10 horas de suporte mensais</li>
+                        <li>Gravação de genealogias para controle e registro.</li>
+                        <li>Gerenciamento simples de vendas, inclusive em condomínios.</li>
+                        <li>Suporte para múltiplos vendedores ou compradores por lote.</li>
+                        <li>Controle de comissões para assessores, pisteiros e leiloeiros.</li>
                     </ul>
                     
                 </div>
 
                 <div class="pricing-plan">
-                    <h2 class="class-plan__title">Deluxe</h2>
+                    <h2 class="class-plan__title">Benefícios e Versatilidade do Sistema</h2>
                     <ul class="pricing-plan__features">
-                        <li>10 Website</li>
-                        <li>30GB de Armazenamento</li>
-                        <li>Transferência ilimitada</li>
-                        <li>30 horas de suporte mensais</li>
-                        <li>Email personalizado</li>
+                        <li>Acesso direto e integrado a um banco de dados em nuvem.</li>
+                        <li>Facilidade na integração com contratos digitais e WhatsApp.</li>
+                        <li>Relatórios configuráveis para atender diversas necessidades.</li>
+                        <li>Simplificação do fechamento de leilões</li>
+                        <li>Suporte para gravação de genealogias e gerenciamento de vendas em condomínios.</li>
+                        <li>Controle de comissões para vários envolvidos no processo de venda.</li>
+                        <li>Adequado para diferentes tipos de animais e produtos agrícolas.</li>
                     </ul>
                     
                 </div>
