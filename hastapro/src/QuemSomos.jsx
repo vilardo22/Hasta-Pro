@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/QuemSomos.css';
+// import './css/QuemSomos.css';
 import './css/QuemSomos2.css';
 import logofundo from './assets/1234.png';
 import fundo from './assets/fundo.png';

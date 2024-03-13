@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/faleconosco.css'
+// import './css/faleconosco.css'
 import './css/faleconosco2.css'
 
 const Faleconosco = () => {

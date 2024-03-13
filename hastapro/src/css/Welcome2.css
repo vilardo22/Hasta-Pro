@@ -1,3 +1,37 @@
+
+@media screen and (min-width: 20em) {
+
+    .wrapperContainer-hero {
+      background-image: linear-gradient(#24394F, #c6ccca);
+    }
+    .heroBanner img {
+      max-width: 100%; /* Faz com que a imagem nunca ultrapasse a largura de seu contêiner */
+      height: auto; /* Mantém a proporção da imagem ao redimensionar */
+    }
+    .heroBanner {
+       flex-direction: column; /* Empilha imagem e texto verticalmente */
+      align-items: center; /* Centraliza os itens */
+      text-align: center; /* Centraliza o texto */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem; /* Ajustado de 5rem para melhor adequação */
+    }
+  
+    .hero_title {
+      margin-bottom: 2rem; /* Ajustado de 4rem para melhor adequação */
+      font-size: 2rem; /* Ajustado de 2.5rem para melhor adequação */
+      color: #EEF7F4;
+      margin-left: 0.5rem; /* Ajustado de 1.8rem para melhor adequação */
+      margin-top: 1.2rem; /* Ajustado de 1.8rem para melhor adequação */
+    }
+    .verde{
+        color: #43daa0;
+        text-shadow: #00000070 1px 0 10px;
+    }
+}
+
+
 @media screen and (min-width: 50em){
     
     .wrapperContainer-hero {
@@ -6,6 +40,7 @@
     
     .heroBanner {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         gap: 5rem;

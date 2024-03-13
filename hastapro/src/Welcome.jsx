@@ -1,6 +1,6 @@
 import React from 'react'
-import './css/Welcome.css'
 import './css/Welcome2.css'
+// import './css/Welcome.css'
 import hero from './assets/HeroImage.png'
 
 const Welcome = () => {
