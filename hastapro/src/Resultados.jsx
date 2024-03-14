@@ -1,5 +1,7 @@
 import React from 'react'
 import marreta from "./assets/dado.png"
+import marreta2 from "./assets/dado2.png"
+import marreta3 from "./assets/dado3.png"
 import "./css/Resultados.css"
 import "./css/Resultados2.css"
 const Resultados = () => {
@@ -23,7 +25,7 @@ const Resultados = () => {
         <div class="pricing-plan2">
           <h1 class="class-plan__title3">Confiança</h1>
           <div class="pricing-plan__features2">
-            <img src={marreta} alt="marreta" />
+            <img src={marreta2} alt="marreta" />
             </div>
             <h2 class="class-plan__title2"><span>40</span></h2>
             <h2 class="class-plan__title2"> Leiloeiras pelo País</h2>
@@ -34,7 +36,7 @@ const Resultados = () => {
         <div class="pricing-plan2">
           <h1 class="class-plan__title3">Contratos</h1>
           <div class="pricing-plan__features2">
-          <img src={marreta} alt="marreta" />
+          <img src={marreta3} alt="marreta" />
             </div>
             <h2 class="class-plan__title2"><span>1500</span></h2>
             <h2 class="class-plan__title2"> Contratos Mensais</h2>        </div>

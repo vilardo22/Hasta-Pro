@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner1 from './assets/banner1.jpg';
+import banner1 from './assets/banner1.png';
 import banner2 from './assets/banner2.png'; // Substitua pelo caminho correto da sua imagem
 import banner3 from './assets/banner2.png'; // Substitua pelo caminho correto da sua imagem
 import './css/Banner.css';

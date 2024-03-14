@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 body{
     background-color: #24394F;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Aplicando a fonte importada */
+    font-family: 'Comfortaa', sans-serif;
 }

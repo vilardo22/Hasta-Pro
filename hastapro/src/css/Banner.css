@@ -1,6 +1,6 @@
 .slider {
-    margin: 0 auto;
-    width: 100%;
+    padding-right: 6rem;
+    width: auto;
     height: 18rem; /* Mantendo a altura em rem */
     overflow: hidden;
     position: relative; /* Adicionando position:relative para permitir position:absolute nos elementos filhos */
@@ -18,35 +18,19 @@
 }
 
 .slide {
+      
     width: 100%; /* Mantendo a largura de cada slide em rem */
+    height: 100%;
     transition: transform 0.5s ease-in-out; /* Adicionando suavização na transição */
+    position: relative;
 }
 
 .slide img {
-    width: 100%;
-    height: 18rem; /* Mantendo a altura da imagem em rem */
-    object-fit: cover; /* Garantindo que a imagem cubra o espaço disponível */
+    width: 45%; /* Faz com que a imagem ocupe toda a largura do slide */
+    height: 100%; /* Faz com que a imagem ocupe toda a altura do slide */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do contêiner mantendo sua proporção */
 }
 
-.navigation-auto, .manual-navigation {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    bottom: 1.25rem; /* Mantendo a distância inferior em rem */
-}
-
-.navigation-auto div, .manual-btn {
-    border: 0.125rem solid #fff; /* Mantendo a largura da borda em rem */
-    padding: 0.3125rem; /* Mantendo o preenchimento em rem */
-    border-radius: 2rem; /* Mantendo o raio da borda em rem */
-    margin: 0 0.3125rem; /* Mantendo a margem em rem */
-    cursor: pointer;
-}
-
-.navigation-auto .active, .manual-btn:hover, .manual-btn:focus, .manual-btn:active {
-    background-color: #fff;
-}
 
 /* Ajustes para mostrar ou esconder slides baseado na classe "active" */
 .slide:not(.active) {

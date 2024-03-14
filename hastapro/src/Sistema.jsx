@@ -1,5 +1,5 @@
 import React from 'react'
-import logoBc from "./assets/logobc.png"
+// import logoBc from "./assets/logobc.png"
 import "./css/Sistema.css";
 import "./css/Sistema2.css";
 
